@@ -16,4 +16,5 @@ async def load(ctx,module:str):
   except as e:
     await ctx.send(f'```\n{e}\n```)
   else:
-  
+    await ctx.messag.add_reaction('👍')
+            
